@@ -94,6 +94,12 @@ footer h4{color:var(--navy);font-family:'Plus Jakarta Sans';font-size:15px;margi
 footer a{color:var(--gray);text-decoration:none;display:block;margin-bottom:7px;font-size:13.5px}
 footer a:hover{color:var(--teal-d)}
 .footbottom{max-width:1180px;margin:28px auto 0;padding:18px 24px 0;border-top:1px solid var(--line);color:var(--gray);font-size:12.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.footmap{background:var(--soft);padding:44px 0 36px;border-top:1px solid var(--line)}
+.mapembed{border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 12px 30px rgba(15,42,61,.08)}
+.mapembed iframe{display:block;width:100%}
+.socialrow{display:flex;gap:10px;margin-top:16px}
+.social-ic{width:36px;height:36px;border-radius:50%;background:var(--soft);color:var(--navy);display:flex;align-items:center;justify-content:center;text-decoration:none;border:1px solid var(--line)}
+.social-ic:hover{background:var(--teal);color:#fff;border-color:var(--teal)}
 /* inner pages */
 .pagehead{background:var(--soft);padding:44px 0}
 .pagehead .wrap{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}
